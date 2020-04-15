@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"f411ceux\startup_stm32f411xe.o"
+"f411ceux\main.o"
+"f411ceux\stm32f4xx_it.o"
+"f411ceux\stm32f4xx_hal_msp.o"
+"f411ceux\stm32f4xx_hal_adc.o"
+"f411ceux\stm32f4xx_hal_adc_ex.o"
+"f411ceux\stm32f4xx_hal_tim.o"
+"f411ceux\stm32f4xx_hal_tim_ex.o"
+"f411ceux\stm32f4xx_hal_rcc.o"
+"f411ceux\stm32f4xx_hal_rcc_ex.o"
+"f411ceux\stm32f4xx_hal_flash.o"
+"f411ceux\stm32f4xx_hal_flash_ex.o"
+"f411ceux\stm32f4xx_hal_flash_ramfunc.o"
+"f411ceux\stm32f4xx_hal_gpio.o"
+"f411ceux\stm32f4xx_hal_dma_ex.o"
+"f411ceux\stm32f4xx_hal_dma.o"
+"f411ceux\stm32f4xx_hal_pwr.o"
+"f411ceux\stm32f4xx_hal_pwr_ex.o"
+"f411ceux\stm32f4xx_hal_cortex.o"
+"f411ceux\stm32f4xx_hal.o"
+"f411ceux\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "F411CEUx\F411CEUx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F411CEUx.map" -o F411CEUx\F411CEUx.axf
